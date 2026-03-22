@@ -1,1 +1,68 @@
+# Executables
 cloudflared.exe
+
+# Environment files - NEVER COMMIT THESE
+.env
+.env.*
+!.env.example
+*.local
+
+# Credentials and secrets
+credentials.json
+secrets.json
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+*.crt
+
+# AWS
+.aws/
+aws.json
+credentials
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+
+# Backups and temp files
+*.bak
+*.backup
+*.old
+*.tmp
+*.log
+*.sql
+*.dump
+backup.zip
+dump.sql
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# Config backups
+config.bak
+config.old
+settings.bak

@@ -1,0 +1,40 @@
+User-agent: *
+Disallow: /.git/
+Disallow: /.env
+Disallow: /config/
+Disallow: /admin/
+Disallow: /backend/
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandex
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+Sitemap: https://rinnenprofi-muc.de/sitemap.xml
+
+
+
+
+
+
+
+
